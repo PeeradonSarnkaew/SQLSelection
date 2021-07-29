@@ -1,0 +1,16 @@
+﻿<Window x:Class="SQLiteHW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLiteHW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="47" Margin="95,103,0,0" TextWrapping="Wrap" Text="Enter Name" VerticalAlignment="Top" Width="384"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="95,51,0,0" TextWrapping="Wrap" Text="SQLite Shower" VerticalAlignment="Top" Width="227"/>
+        <Button x:Name="addButt" Content="ADD" HorizontalAlignment="Left" Height="99" Margin="95,184,0,0" VerticalAlignment="Top" Width="194" Click="add"/>
+        <Button x:Name="showButt" Content="Showall" HorizontalAlignment="Left" Height="99" Margin="329,184,0,0" VerticalAlignment="Top" Width="194" Click="showall"/>
+
+    </Grid>
+</Window>
